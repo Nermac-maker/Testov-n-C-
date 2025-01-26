@@ -18,11 +18,20 @@ namespace TestovaniC
         /// param name="b">Druhé číslo</param>
         /// <returns>součet prvního a druhého čísla</returns>
         public int Secti() { return a + b; }
-        
+        /// <summary>
+        /// Metoda odečte dvě čísla a vrátí výsledek
+        /// </summary>
+        /// <returns></returns>
         public int Odecitani() { return a - b; }
-        
+        /// <summary>
+        /// Metoda vynásobí dvě čísla a vrátí výsledek
+        /// </summary>
+        /// <returns></returns>
         public int Nasobeni() { return a * b; }
-        
+        /// <summary>
+        /// Metoda vydělí dvě čísla a vrátí výsledek
+        /// </summary>
+        /// <returns></returns>
         public int Deleni() { return a / b; }
         
 
