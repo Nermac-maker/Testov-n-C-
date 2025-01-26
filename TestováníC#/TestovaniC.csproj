@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TestovaniC</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\malik\OneDrive\Plocha\TestyC#\TestováníC#\Dokumentace\Dokumentace.txt</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.7.2" />
+    <PackageReference Include="Selenium.Support" Version="4.28.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.28.0" />
+  </ItemGroup>
+
+</Project>
